@@ -3,7 +3,6 @@ import { View, Image, Text, StyleSheet } from "react-native"
 
 const ResultsDetail = ({ result }) => {
   const { item } = result
-  console.log(result)
   return (
     <View style={styles.container}>
       <Image source={{ uri: item.image_url }} style={styles.image} />
